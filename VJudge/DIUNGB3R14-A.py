@@ -2,17 +2,14 @@
 # https://codeforces.com/problemset/problem/1454/A
 
 def f():
-    a = int(input())
-    print(a, end="")
-    for i in range(1, a):
-        print(f" {i}", end="")    
-    print("")
+    a = input()
+    print(a[0] - 2)
     
     
-z = int(input())
-while z:
-    f()
-    z -= 1
+# z = int(input())
+# while z:
+f()
+    # z -= 1
     
     
  
